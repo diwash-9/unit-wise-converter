@@ -39,16 +39,18 @@ This project was built as a **learning exercise** to deepen understanding of Rea
 
 ```bash
 cd unit-converter
+```
 Install dependencies:
 
 ```bash
 npm install
+```
 Run the app locally:
-
+```
 bash
 npm start
 Open your browser at http://localhost:3000 to use the converter.
-
+```
 # Learning Outcomes
 Managing complex state with React hooks (useState, useEffect)
 
