@@ -1,0 +1,315 @@
+{
+  "unitTypes": {
+    "len": {
+      "name": "Length",
+      "units": {
+        "mts": {
+          "name": "Meters",
+          "toBase": 1
+        },
+        "kilomts": {
+          "name": "Kilometers",
+          "toBase": 1000
+        },
+        "cmts": {
+          "name": "Centimeters",
+          "toBase": 0.01
+        },
+        "millimts": {
+          "name": "Millimeters",
+          "toBase": 0.001
+        },
+        "micromts": {
+          "name": "Micrometers",
+          "toBase": 1e-06
+        },
+        "nanomts": {
+          "name": "Nanometers",
+          "toBase": 1e-09
+        },
+        "mile": {
+          "name": "Miles",
+          "toBase": 1609.34
+        },
+        "yard": {
+          "name": "Yards",
+          "toBase": 0.9144
+        },
+        "foot": {
+          "name": "Foot",
+          "toBase": 0.3048
+        },
+        "inch": {
+          "name": "Inches",
+          "toBase": 0.0254
+        },
+        "lightyear": {
+          "name": "Light Year",
+          "toBase": 9461000000000000.0
+        }
+      }
+    },
+    "temp": {
+      "name": "Temperature",
+      "units": {
+        "celsius": {
+          "name": "Celsius"
+        },
+        "kelvin": {
+          "name": "Kelvin"
+        },
+        "fahrenheit": {
+          "name": "Fahrenheit"
+        }
+      },
+      "formulas": {
+        "celsius_to_fahrenheit": "value * 9 / 5 + 32",
+        "fahrenheit_to_celsius": "(value - 32) * 5 / 9",
+        "celsius_to_kelvin": "value + 273.15",
+        "kelvin_to_celsius": "value - 273.15",
+        "fahrenheit_to_kelvin": "((value - 32) * 5 / 9) + 273.15",
+        "kelvin_to_fahrenheit": "((value - 273.15) * 9 / 5) + 32"
+      }
+    },
+    "area": {
+      "name": "Area",
+      "units": {
+        "sqmts": {
+          "name": "Square Meters",
+          "toBase": 1
+        },
+        "sqkmts": {
+          "name": "Square Kilometers",
+          "toBase": 1000000.0
+        },
+        "sqcmts": {
+          "name": "Square Centimeters",
+          "toBase": 0.0001
+        },
+        "sqmmts": {
+          "name": "Square Millimeters",
+          "toBase": 1e-06
+        },
+        "sqmicromts": {
+          "name": "Square Micrometers",
+          "toBase": 1e-12
+        },
+        "hectare": {
+          "name": "Hectares",
+          "toBase": 10000
+        },
+        "sqmile": {
+          "name": "Square Miles",
+          "toBase": 2590000.0
+        },
+        "sqyard": {
+          "name": "Square Yards",
+          "toBase": 0.836127
+        },
+        "sqft": {
+          "name": "Square Feet",
+          "toBase": 0.092903
+        },
+        "sqinch": {
+          "name": "Square Inches",
+          "toBase": 0.00064516
+        },
+        "acre": {
+          "name": "Acres",
+          "toBase": 4046.86
+        }
+      }
+    },
+    "vol": {
+      "name": "Volume",
+      "units": {
+        "cumts": {
+          "name": "Cubic Meters",
+          "toBase": 1
+        },
+        "cukmts": {
+          "name": "Cubic Kilometers",
+          "toBase": 1000000000.0
+        },
+        "cucmts": {
+          "name": "Cubic Centimeters",
+          "toBase": 1e-06
+        },
+        "cummts": {
+          "name": "Cubic Millimeters",
+          "toBase": 1e-09
+        },
+        "lts": {
+          "name": "Liters",
+          "toBase": 0.001
+        },
+        "mlts": {
+          "name": "Milliliters",
+          "toBase": 1e-06
+        },
+        "usgallon": {
+          "name": "US Gallon",
+          "toBase": 0.00378541
+        },
+        "usquart": {
+          "name": "US Quart",
+          "toBase": 0.000946353
+        },
+        "uspint": {
+          "name": "US Pint",
+          "toBase": 0.000473176
+        },
+        "uscup": {
+          "name": "US Cup",
+          "toBase": 0.000236588
+        },
+        "usfluidounce": {
+          "name": "US Fluid Ounce",
+          "toBase": 2.9574e-05
+        },
+        "ustablebspoon": {
+          "name": "US Table Spoon",
+          "toBase": 1.4787e-05
+        },
+        "usteaspoon": {
+          "name": "US Tea Spoon",
+          "toBase": 4.9289e-06
+        },
+        "impgallon": {
+          "name": "Imperial Gallon",
+          "toBase": 0.00454609
+        },
+        "impquart": {
+          "name": "Imperial Quart",
+          "toBase": 0.00113652
+        },
+        "imppint": {
+          "name": "Imperial Pint",
+          "toBase": 0.000568261
+        },
+        "impfluidounce": {
+          "name": "Imperial Fluid Ounce",
+          "toBase": 2.8413e-05
+        },
+        "imptablespoon": {
+          "name": "Imperial Table Spoon",
+          "toBase": 1.7758e-05
+        },
+        "impteaspoon": {
+          "name": "Imperial Tea Spoon",
+          "toBase": 5.9194e-06
+        },
+        "cumile": {
+          "name": "Cubic Mile",
+          "toBase": 4168000000.0
+        },
+        "cuyard": {
+          "name": "Cubic Yard",
+          "toBase": 0.764555
+        },
+        "cufoot": {
+          "name": "Cubic Foot",
+          "toBase": 0.0283168
+        },
+        "cuinch": {
+          "name": "Cubic Inch",
+          "toBase": 1.6387e-05
+        }
+      }
+    },
+    "weight": {
+      "name": "Weight",
+      "units": {
+        "kgms": {
+          "name": "Kilogram",
+          "toBase": 1
+        },
+        "gms": {
+          "name": "Gram",
+          "toBase": 0.001
+        },
+        "mgms": {
+          "name": "Milligram",
+          "toBase": 1e-06
+        },
+        "metricton": {
+          "name": "Metric Ton",
+          "toBase": 1000
+        },
+        "longton": {
+          "name": "Long Ton",
+          "toBase": 1016.05
+        },
+        "shortton": {
+          "name": "Short Ton",
+          "toBase": 907.184
+        },
+        "pound": {
+          "name": "Pound",
+          "toBase": 0.453592
+        },
+        "ounce": {
+          "name": "Ounce",
+          "toBase": 0.0283495
+        },
+        "carrat": {
+          "name": "Carat",
+          "toBase": 0.0002
+        },
+        "atomicmass": {
+          "name": "Atomic Mass Unit",
+          "toBase": 1.6605390666e-27
+        }
+      }
+    },
+    "time": {
+      "name": "Time",
+      "units": {
+        "sec": {
+          "name": "Second",
+          "toBase": 1
+        },
+        "milisec": {
+          "name": "Millisecond",
+          "toBase": 0.001
+        },
+        "microsec": {
+          "name": "Microsecond",
+          "toBase": 1e-06
+        },
+        "nanosec": {
+          "name": "Nanosecond",
+          "toBase": 1e-09
+        },
+        "picosec": {
+          "name": "Picosecond",
+          "toBase": 1e-12
+        },
+        "min": {
+          "name": "Minute",
+          "toBase": 60
+        },
+        "hour": {
+          "name": "Hour",
+          "toBase": 3600
+        },
+        "day": {
+          "name": "Day",
+          "toBase": 86400
+        },
+        "week": {
+          "name": "Week",
+          "toBase": 604800
+        },
+        "month": {
+          "name": "Month",
+          "toBase": 2628000
+        },
+        "year": {
+          "name": "Year",
+          "toBase": 31536000
+        }
+      }
+    }
+  }
+}
