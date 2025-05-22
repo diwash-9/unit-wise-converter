@@ -40,12 +40,13 @@ This project was built as a **learning exercise** to deepen understanding of Rea
    ```bash
    cd unit-converter
    ```
-Install dependencies:
+3. Install dependencies:
 
    ```bash
    npm install
    ```
-Run the app locally:
+4. Run the app locally:
+   
    ```bash
    npm run dev
    Open your browser at http://localhost:5173 to use the converter.
