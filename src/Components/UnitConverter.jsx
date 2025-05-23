@@ -294,7 +294,7 @@ function UnitConverter() {
           <div className="flex justify-between items-center pt-4">
             <button
               onClick={clearForm}
-              className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold px-6 py-3 rounded-xl shadow-sm transition transform active:scale-95 flex items-center gap-2 border border-gray-200"
+              className="bg-gray-200 hover:bg-gray-200 text-gray-700 font-semibold px-6 py-3 rounded-xl shadow-sm transition transform active:scale-95 flex items-center gap-2 border border-gray-200"
               title="Clear all inputs in the form."
             >
               <svg
